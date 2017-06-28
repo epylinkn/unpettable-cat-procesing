@@ -11,7 +11,7 @@ float predict_x;
 float predict_y;
 
 void setup() {
-  size(1024, 768);
+  size(1600, 1000);
   oscP5 = new OscP5(this, 12000);
   myRemoteLocation = new NetAddress("127.0.0.1", 13000);
   predict_x = width / 2;
